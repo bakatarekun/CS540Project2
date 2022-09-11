@@ -3,3 +3,8 @@
 db.sqlite3
 venv/
 .env
+env/
+*.sql
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
