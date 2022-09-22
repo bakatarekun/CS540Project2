@@ -12,6 +12,19 @@
             "database": "CS540",
             "username": "ken",
             "password": "Akashi@1492"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "PracticeDB",
+            "database": "Practice",
+            "username": "ken",
+            "password": "Akashi@1492"
         }
     ]
 }
