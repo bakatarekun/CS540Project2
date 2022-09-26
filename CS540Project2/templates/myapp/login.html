@@ -54,7 +54,22 @@
     -webkit-overflow-scrolling: touch;
   }
 </style>
+<!-- for JQuery -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script type="text/javascript">
 
+  // $(document).ready(function () {
+  //   document.getElementById('id_username').value = 'test';
+  //   document.getElementById('id_password').value = 'cs540123';
+
+  //       });
+   document.addEventListener("DOMContentLoaded", () => {
+    console.log("Hello World!");
+    document.getElementById('id_username').value = 'test';
+    document.getElementById('id_password').value = 'cs540123';
+  });
+
+</script>
 {% load static %}
 <!-- Custom styles for this template -->
 <link href="{% static 'signin.css' %}" rel="stylesheet">
